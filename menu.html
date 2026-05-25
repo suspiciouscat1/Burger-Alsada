@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    
+</head>
+<body>
+
+    <div id="loading-screen">
+    <div id="loading">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+   </div>
+
+    <!-- Navagation Bar -->
+   <header>
+    <nav class="navbar sec-content">
+        <a href="#home" class="navlogo" id="home">
+            <img class="logo" src="images/Logo.png" alt="">
+        </a>
+    <ul class="navmenu">
+        <button id="menuclose" class="fas fa-times"></button>
+
+        <li class="navitem">
+            <a href="index.html" class="navlink">Home</a>
+        </li>
+        <li class="navitem">
+            <a href="menu.html" class="navlink">Menu</a>
+        </li>
+        <li class="navitem">
+            <a href="about.html" class="navlink">About</a>
+        </li>
+        <li class="navitem">
+            <a href="contact.html" class="navlink">Contact</a>
+        </li>        
+    </ul>
+    <button id="menuopen" class="fa-solid fa-bars"></button>
+    </nav>
+    </header>
+
+    <!-- Main Content -->
+
+    <main id="main-content">
+        
+        <!-- Menu banner -->
+
+        <section id="menu-banner">
+            <div class="sec-content">
+                <h1>Our Menu</h1>
+                <p>Fresh ingredients, bold flavors.</p>
+            </div>
+        </section>
+
+        <!-- Burgers stuff -->
+
+        <section id="menu-burgers" class="menu-section" aria-labelledby="burgers-heading">
+            <div class="sec-content">
+
+                <div class="menu-section-header">
+                    <h2 id="burgers-heading">Burgers</h2>
+                    <p class="menu-section-subtitle">Our Signature burgers, stacked and ready!</p>
+                </div>
+
+                <div class="menu-grid menu-grid--3col">
+
+                    <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Beef_Burger.jpg" alt="Classic Beef Burger">
+                        </div>
+
+                        <div class="menu-card-body">
+                            <h3>Beef Burger</h3>
+                            <p>Juicy patty, american cheese, pickles, onion and a crisp bronze bun.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                     <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Chicken_Burger.jpg" alt="Classic Chicken Burger">
+                        </div>
+
+                        <div class="menu-card-body">
+                            <h3>Chicken Burger</h3>
+                            <p>Same ingredients as the Beef burger but it includes a spicy and crispy Chicken fillet to replace the patty.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+
+                     <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Double_Beef.jpg" alt="Double Beef Burger">
+                        </div>
+
+                        <div class="menu-card-body">
+                            <h3>Double Beef Burger</h3>
+                            <p>Double patty, Double American Cheese, Carmaelized onion and spicy fry sauce.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+
+                     <article class="menu-card" >
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Double_Chicken.jpg" alt="Double chicken">
+                        </div>
+
+                        <div class="menu-card-body">
+                            <h3>Double Chicken Burger</h3>
+                            <p>Two crispy chicken fillets stacked, dripping and sizziling american cheese, pickles, onion and spicy mayo.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                     <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Triple_Beef.jpg" alt="Triple beef">
+                        </div>
+
+                        <div class="menu-card-body">
+                            <h3>Triple Beef Burger</h3>
+                            <p> Three juicy beef patties, triple cheese,BBQ sauce and fresh lettuce.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+
+                     <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Triple_Chicken.jpg " alt="Triple chicken">
+                        </div>
+
+                        <div class="menu-card-body">
+                            <h3>Triple Chicken Burger</h3>
+                            <p>Three crispy chicken fillets, triple cheese, japlapenos, ranch and hot sauce for texture.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sandwich stuff -->
+
+        <section id="menu-sandwiches" class="menu-section menu-section-dark" aria-labelledby="sandwiches-heading">
+            <div class="sec-content">
+
+                <div class="menu-section-header">
+                    <h2 id="sandwiches-heading">Sandwiches</h2>
+                    <p class="menu-section-subtitle">Loaded sandwiches built for big appetites!</p>
+                </div>
+
+                <div class="menu-grid menu-grid--2col">
+                    <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Toast_Beef.jpg" alt="Toast Beef sandwich">
+                        </div>
+                        
+                        <div class="menu-card-body">
+                            <h3>Toast Beef</h3>
+                            <p>Toast bread filled with cheese, and a beef patty with sauce in the center.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+                    
+                     <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Club_Sandwich.jpg" alt="Club sandwich">
+                        </div>
+                        
+                        <div class="menu-card-body">
+                            <h3>Club Sandwich</h3>
+                            <p>Four triangles of toasted sandwich with burger, cheese, sauce and lettuce, plus fries.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+
+                     <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Malghoom_twister.jpg" alt="Malghoom Tekka twister">
+                        </div>
+                        
+                        <div class="menu-card-body">
+                            <h3>Malghoom Tekka</h3>
+                            <p>Spiced grilled tekka with cheese, fries, fresh vegetables, and signature sauce wrapped in a toasted bun or paratha.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+
+                     <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Chicken_Twister_Sandwich.jpg" alt="ChickenTwister sandwich">
+                        </div>
+                        
+                        <div class="menu-card-body">
+                            <h3>Chicken Twister</h3>
+                            <p>Crispy chicken strips, lettuce, tomato and garlic sauce all wrapped up in a nice soft flour torilla.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Fries stuff -->
+
+
+        <section id="menu-fries" class="menu-section" aria-labelledby="fries-heading">
+            <div class="sec-content">
+
+                <div class="menu-section-header">
+                    <h2 id="fries-heading">Fries</h2>
+                    <p class="menu-section-subtitle">Crispy on the outside, fluffy on the inside!</p>
+                </div>
+
+                <div class="menu-grid menu-grid--2col">
+
+                    <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/fries.jpg" alt="Fries">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Fries</h3>
+                            <p>Golden crispy fries seasoned with salt.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Chicken_Fries.jpg" alt="Chicken fries Jalapeno">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Chicken Fries Jalapeno</h3>
+                            <p>Crispy loaded fries topped with jalapeno to add spice, and chicken in the mix.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Beef_Fries.jpg" alt="Beef Fries Jalapeno">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Beef Fries Jalapeno</h3>
+                            <p>Crispy fries loaded with seasoned with seasoned beef and japlapenos.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Cheese_Fries.jpg" alt="Jalapeno Sauce Fries">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Cheese Sauce Fries</h3>
+                            <p>Crispy fries covered cheese with jalapenos on top.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Dirinks stuff -->
+
+        <section id="menu-drinks" class="menu-section menu-section-dark" aria-labelledby="drinks-heading">
+            <div class="sec-content">
+
+                <div class="menu-section-header">
+                    <h2 id="drinks-heading">Drinks</h2>
+                    <p class="menu-section-subtitle">Cold, refreshing and made to pair with your mea!</p>
+                </div>
+
+                <div class="menu-grid menu-grid--3col">
+
+                    <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/drinks.jpg" alt="Pepsi">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Pepsi</h3>
+                            <p>Ice cold Pepsi served in a cool temp glass with three ice cubes.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Miranda.jpg" alt="Citrus">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Citrus</h3>
+                            <p>A refreshing and cool Miranda Citrus of your choice.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/water2.jpg" alt="Water">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Water</h3>
+                            <p>Refreshing and cold still mineral water.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Kids meal stuff -->
+
+
+        <section id="menu-kids" class="menu-section" aria-labelledby="kids-heading">
+            <div class="sec-content">
+
+                <div class="menu-section-header">
+                    <h2 id="kids-heading">Kids Meals</h2>
+                    <p class="menu-section-subtitle">Smaller portions, same big flavors!</p>
+                </div>
+
+                <div class="menu-grid menu-grid--3col">
+
+                    <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Chicken_Strips.jpg" alt="Chicken Strips">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Chicken Popcorn</h3>
+                            <p>Bite sized crispy chicken pieces with dipping sauce on the side.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                   <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Nuggets_Kid.png" alt="Chicken Nuggets">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Chicken Nuggets</h3>
+                            <p>Four or eight golden chicken nuggets served with ketchup or honey mustard on the side.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                            </div>
+                            </article>
+
+                    <article class="menu-card">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/Chicken_Burger_kid.jpg" alt="Chicken Fillet">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Chicken Fillet</h3>
+                            <p>A tender chicken fillet on a small soft bun with mild sauce, with a drink and fries on the side.</p>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Frozen food stuff -->
+
+        <section id="menu-frozen" class="menu-section menu-section-dark" aria-labelledby="frozen-heading">
+            <div class="sec-content">
+
+                <div class="menu-section-header">
+                    <h2 id="frozen-heading">Frozen Foods</h2>
+                    <p class="menu-section-subtitle">Looking to buy ingredients for your own recipie? You're in the right place!</p>
+                </div>
+
+                <div class="menu-grid menu-grid--2col menu-grid-centered">
+
+                    <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/beef_patty.jpg" alt="Frozen Patty">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Frozen Beef</h3>
+                            <p>Pack of pre-seasoned frozen beef patties ready to grill at home.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="menu-card menu-card-dark">
+                        <div class="menu-card-img-wrap">
+                            <img src="images/chicken_patty.jpg" alt="Frozen Chicken">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Frozen Chicken</h3>
+                            <p>Pack of pre-marinated frozen chicken fillets, ready to be fried for a meal.</p>
+                            <button class="btn-cart btn-cart-light">Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main> 
+
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="footercon">
+        <div class="social_icons">
+        <a href="https://www.facebook.com/p/برجر-السادة-100079503198438/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/burger_alsada14/?hl=en" ><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@burgeralsada14" ><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        
+        <div class="footernav">
+            <ul>
+                <li>
+                    <a href="index.html" class="navlink">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html" class="navlink">Menu</a>
+                </li>
+                <li>
+                    <a href="about.html" class="navlink">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="navlink">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="copyright">Burger Alsada <i class="fa-regular fa-copyright"></i> 2026. All rights reserved.</div>
+        </div>
+    
+    </footer>
+
+<div id="cart-popup">Added to Cart!</div>
+<script src="script.js"></script>
+
+</body>
+</html>
