@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+</head>
+<body>
+
+    <div id="loading-screen">
+    <div id="loading">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+   </div>
+
+    <!-- Navagation Bar -->
+   <header>
+    <nav class="navbar sec-content">
+        <a href="#home" class="navlogo" id="home">
+            <img class="logo" src="images/logo.png" alt="">
+        </a>
+    <ul class="navmenu">
+        <button id="menuclose" class="fas fa-times"></button>
+
+        <li class="navitem">
+            <a href="index.html" class="navlink">Home</a>
+        </li>
+        <li class="navitem">
+            <a href="menu.html" class="navlink">Menu</a>
+        </li>
+        <li class="navitem">
+            <a href="about.html" class="navlink">About</a>
+        </li>
+        <li class="navitem">
+            <a href="contact.html" class="navlink">Contact</a>
+        </li>
+    </ul>
+    <button id="menuopen" class="fa-solid fa-bars"></button>
+    </nav>
+
+        <!-- Main content -->
+    
+        <main id="main-content">
+            <!-- Hero section -->
+
+
+            <section id="about-hero" aria-labelledby="hero-heading">
+                <!--Dsiplay:none feature aka the decorative badge-->
+                <span class="hero-badge">EST. 2026</span>
+
+                <div class="hero-text">
+                    <p class="hero-label">Our Story</p>
+                    <h1 id="hero-heading">Crafted with Fire, Served with Soul.</h1>
+                    <p>Every burger we make carries decades of obsession over sourcing, seasoning, and preperation of the perfect burgers. We didn't set out to build a chain, we set out to build the best burger in Bahrain.</p>
+                    <a href="menu.html" class="btn-red">Order Now</a>
+                </div>
+
+                <figure class="hero-image">
+                    <img src="images/about-hero.jpg" alt="Delicous Burger for Hero">
+                </figure>
+            </section> 
+
+            <!-- Brand Story section -->
+
+            <section id="brand-story" aria-labelledby="story-heading">
+                <div class="section-content">
+
+                    <h2 id="story-heading">Burger Alsada &mdash; More Than Just a Burger</h2>
+
+                    <p class="section-subtitle">Born in the heart of Bahrain, Burger Alsada was built on a simple principle; bold flavors deserve bold ingredients. We source our own resources, home made sauces, and crisp and golden burger buns to hold our burger ingredients together. no compromises &mdash; just food worth coming back for.</p>
+
+                    <!-- Feature cards -->
+
+                    <div class="story-cards">
+
+                        <article class="story-card">
+                            <div class="card-icon">01</div>
+                            <h3>Premium Dining</h3>
+                            <p>A dine-in experince without the formalness. We obsess over every detail so you can enjoy your meal.</p>
+                        </article>
+
+                        <article class="story-card">
+                            <div class="card-icon">02</div>
+                            <h3>Expert Chef</h3>
+                            <p>Our kitchen is led by chefs trained across the globe who beinf their experince to every flip and press of the patty.</p>
+                        </article>
+
+                    </div>
+
+                    <a href="menu.html" class="btn-red">Order Now</a>
+                </div>
+            </section>
+
+
+            <!-- Why our burgrs hit diffrent section -->
+
+            <section id="promo" aria-labelledby="promo-heading">
+                <div class="section-content">
+
+                    <h2 id="promo-heading">Why Our Burgers Hit Diffrent?</h2>
+                    <p class="section-subtitle">Three reasons our regulars alwasy come back.</p>
+
+                    <!-- promo grid with 3 columns -->
+
+                    <div class="promo-grid">
+
+                        <article class="promo-card promo-dark">
+                            <span class="promo-label">Signature Series</span>
+                            <h3>The Classic Smash</h3>
+                            <a href="menu.html" class="btn-outline-white">Explore Menu</a>
+                        </article>
+
+                        <article class="promo-card promo-red">
+                            <span class="promo-label">Fan Favorite</span>
+                            <h3>Double Trouble Stack</h3>
+                            <a href="menu.html" class="btn-outline-white">Explore Menu</a>
+                        </article>
+
+                        <article class="promo-card promo-amber">
+                            <span class="promo-label">Weekend Special</span>
+                            <h3>Crispy Chicken Crunch</h3>
+                            <a href="menu.html" class="btn-outline-dark">Explore Menu</a>
+                        </article>
+
+                        <!-- Wide offer card. 2 columns -->
+
+                        <article class="promo-card promo-teal promo-wide">
+                            <div class="offer-text">
+                                <span class="promo-label">For Limited Time Only</span>
+                                <h3 class="offer-title">50% Off Any Combo</h3>
+                                <p class="offer-note">Valid on dine-in order this Weekend only.</p>
+                            </div>
+                            <a href="menu.html" class="btn-white">Claim Offer</a>
+                        </article>
+
+
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section id="stats" aria-labelledby="stats-heading">
+                <h2 id="stats-heading" class="visually-hidden">Our Milestones</h2>
+
+                <div class="stats-strip">
+
+                    <div class="stat-col">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Years of craft</span>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div class="stat-col">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Fresh ingredients</span>
+                    </div>
+
+                </div>
+
+            </section>
+            </main>
+
+            <!-- Footer -->
+    <footer>
+      <div class="footercon">
+        <div class="social_icons">
+        <a href="https://www.facebook.com/p/برجر-السادة-100079503198438/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/burger_alsada14/?hl=en" ><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@burgeralsada14" ><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        
+        <div class="footernav">
+            <ul>
+                <li>
+                    <a href="index.html" class="navlink">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html" class="navlink">Menu</a>
+                </li>
+                <li>
+                    <a href="about.html" class="navlink">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="navlink">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="copyright">Burger Alsada <i class="fa-regular fa-copyright"></i> 2026. All rights reserved.</div>
+        </div>
+    
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

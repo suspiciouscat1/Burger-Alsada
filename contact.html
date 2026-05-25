@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    
+</head>
+<body>
+
+    <div id="loading-screen">
+    <div id="loading">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+   </div>
+    
+    <!-- Navagation Bar -->
+   <header>
+    <nav class="navbar sec-content">
+        <a href="#home" class="navlogo" id="home">
+            <img class="logo" src="images/Logo.png" alt="">
+        </a>
+    <ul class="navmenu">
+        <button id="menuclose" class="fas fa-times"></button>
+
+        <li class="navitem">
+            <a href="index.html" class="navlink">Home</a>
+        </li>
+        <li class="navitem">
+            <a href="menu.html" class="navlink">Menu</a>
+        </li>
+        <li class="navitem">
+            <a href="about.html" class="navlink">About</a>
+        </li>
+        <li class="navitem">
+            <a href="contact.html" class="navlink">Contact</a>
+        </li>
+    </ul>
+    <button id="menuopen" class="fa-solid fa-bars"></button>
+    </nav>
+    </header> 
+
+    <section id="conhero">
+        <div class="sec-content">
+                <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <section class="numinfo">
+        <div class="infocard">
+    <div class="icon">
+      <i class="fa-solid fa-location-dot"></i>
+    </div>
+    <h3>LOCATIONS</h3>
+    <p>A'ali / Sanad / Shakhurah / Al Lawzi / Bani Jamra </p>
+  </div>
+
+  <div class="infocard active">
+    <div class="icon">
+      <i class="fa-solid fa-phone"></i>
+    </div>
+    <h3>PHONE NUMBERS</h3>
+    <p> 66690959 / 33936677 / 39080550 / 37676731 / 39080590 </p>
+  </div>
+
+  <div class="infocard">
+    <div class="icon">
+      <i class="fa-regular fa-envelope"></i>
+    </div>
+    <h3>MAIL ADDRESS</h3>
+    <p>bugeralsada14@gmail.com</p>
+  </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="location">
+                    <h3>Our different branches</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d114562
+                    .98428513193!2d50.4869843!3d26.1936444!3m2!1i1024!2i768!4f13.1!2m1!1salsada%20burger!5e0!3m2!1sen!2sbh!4v1779626456991!5m2!1sen!2sbh" 
+                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="conform">
+                    <h3>Send us a message</h3>
+                    <form id="contactform">
+                          <div class="formgroup" >
+                            <input type="text" name="name" id="name" placeholder="Your Name">
+                            <div class="error" id="nameErr"></div>
+                          </div>
+
+                           <div class="formgroup">
+                            <input type="email" name="email" id="email" placeholder="Your Email">
+                            <div class="error" id="emailErr"></div>
+                           </div>
+
+                           <div class="formgroup">
+                            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                            <div class="error" id="messageErr"></div>
+                           </div>
+                        <button class="button" type="submit">Send Message</button>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer>
+      <div class="footercon">
+        <div class="social_icons">
+        <a href="https://www.facebook.com/p/برجر-السادة-100079503198438/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/burger_alsada14/?hl=en" ><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@burgeralsada14" ><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        
+        <div class="footernav">
+            <ul>
+                <li>
+                    <a href="index.html" class="navlink">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html" class="navlink">Menu</a>
+                </li>
+                <li>
+                    <a href="about.html" class="navlink">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="navlink">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="copyright">Burger Alsada <i class="fa-regular fa-copyright"></i> 2026. All rights reserved.</div>
+        </div>
+    
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
